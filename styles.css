@@ -1,11 +1,11 @@
 /*  your css code here. If applicable */
-.search{
+.input{
 	position:aboslute;
 	margin:20px 20px;
 	height:20px;
 
 }
-.search.active {
+.input.active {
 	transition: width 2s;
 	width:300px;
 }
