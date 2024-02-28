@@ -1,29 +1,17 @@
 /*  your css code here. If applicable */
-.search {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
+.search{
+	position:aboslute;
+	margin:20px 20px;
+	height:20px;
 
-  .search.active input[type="text"] {
-    width: 200px; 
-    transition: width 0.3s ease;
-  }
-
-  .input {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    
-  }
-
-  .btn {
-    padding: 8px 16px;
-    margin-left: 8px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    
-  }
+}
+.search.active {
+	transition: width 2s;
+	width:300px;
+}
+.btn{
+	background-color:blue;
+	color:white;
+	padding: 5px;
+	border-radius: 5px;
+}
